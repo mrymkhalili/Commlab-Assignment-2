@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Comic Commlab 2020</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Loading the font for the upper left "logo" text -->
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <!-- Making the navbar for swithcing between home and comic pages -->
+        <nav>
+            <p>Roots</p>
+            <ul class = "nav_bar">
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "comic.html">Comic</a></li>
+            </ul>
+        </nav>
+
+        <!-- Making the main area of the screen were images and buttons are loaded -->
+        <div id ="screen_div">
+            <img id="comic_screen" src="question1.png">
+            <img id="start_button" src="start.png">
+            <img id="restart_button" src="restart.png">
+            <div id = "choice_1"></div>
+            <div id = "choice_2"></div>            
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
