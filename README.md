@@ -1,8 +1,5 @@
 # Commlab-Assignment-2
 
-
-READ ME
-
 * Project Name
 Roots
 
